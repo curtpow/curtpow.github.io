@@ -1,0 +1,38 @@
+:root {
+    --color1:#EDEDED;
+    --color2:#D9C702;
+    --color3:#941AF0;
+    --color4:#952AE7;
+    --color5:#2D0C46;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color3)
+}
+
+ul{
+    color: var(--color5);
+}
+
+#skillsList {
+    columns: 3;
+}
+
+.sectionHeader {
+    color: var(--color2);
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.employerName {
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: var(--color5)
+}
+
+.positionTitle {
+    font-weight: bold;
+    font-style: italic;
+    color: var(--color2)
+}
