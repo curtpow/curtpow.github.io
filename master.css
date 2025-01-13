@@ -1,38 +1,83 @@
 :root {
-    --color1:#EDEDED;
-    --color2:#D9C702;
-    --color3:#941AF0;
-    --color4:#952AE7;
-    --color5:#2D0C46;
+    --color1:#F7E0D4;
+    --color2:#FC600A;
+    --color3:#347B98;
+    --color4:#1489B8;
+    --color5:#092834;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--color3)
+    background-color: var(--color3);
+    color: var(--color1);
+    margin: 25%;
 }
 
 ul{
-    color: var(--color5);
+    color: var(--color1);
+}
+
+h1{
+    font-size: 32pt;
 }
 
 #skillsList {
     columns: 3;
 }
 
-.sectionHeader {
-    color: var(--color2);
-    font-style: italic;
-    font-variant: small-caps;
+#unorderedList {
+    list-style-type: square;
 }
+
+
 
 .employerName {
     font-variant: small-caps;
     letter-spacing: 1px;
-    color: var(--color5)
+    color: var(--color1);
 }
 
 .positionTitle {
     font-weight: bold;
     font-style: italic;
-    color: var(--color2)
+    color: var(--color2);
+    text-shadow: var(--color5);
+}
+
+.overview {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contactMe {
+    display: block;
+}
+
+.propic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.objectiveP {
+    margin-top: 0;
+    margin-right: 0%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+table {
+    margin-right: 10%;
+}
+
+h3 {
+    color: var(--color2);
+    font-style: italic;
+    font-variant: small-caps;
+    text-shadow: var(--color5);
+}
+
+.objective {
+    margin-left: 5%;
+    text-align: center;
 }
