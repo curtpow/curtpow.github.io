@@ -9,15 +9,26 @@
 </head>
 <body>
     <header>
-        <h1>Coty Curtis's Resume</h1>
-        <p><a href="#contactInfo" class="contactMe">Contact Me Now!</a></p>
+        <!-- <h1>Coty Curtis's Resume</h1> -->
     </header>
     <section>
         <!-- OBJECTIVE STATEMENT - cc 20250111 -->
          <table class="profileObjective">
             <tr>
-                <td><img src="propic.jpg" alt="manwithdog" width="300" class="propic"></td>
+                <td><img src="imgs/propic.jpg" alt="manwithdog" width="300" id="propic"></td>
                 <td><h3 class="objective">Objective</h3><p class="objectiveP">Detail-oriented IT Coordinator with a strong foundation in technology and systems management, currently pursuing a degree in Software Engineering. Passionate about software development and eager to leverage technical skills and problem-solving abilities in an internship role. Seeking an opportunity to contribute to innovative projects, enhance programming expertise, and gain hands-on experience in developing efficient, scalable software solutions.</p></td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- CONTACT INFORMATION -->
+                    <section id="contactInfo">
+                       <p>Coty Curtis</p>
+                       <p><a href="tel:+16163402189">(616) 340-2189</a></p>
+                       <p><a href="mailto:cotylcurtis@gmail.com">cotylcurtis@gmail.com</a></p>
+                       <a href="https://maps.app.goo.gl/6U6caRS9iUfBezpu5">
+                        Grand Rapids, MI&nbsp; 49504</a>
+                    </section>
+                </td>
             </tr>
          </table>
         
@@ -25,7 +36,7 @@
     </section>
     <hr>
     <!-- EXPERIENCE -->
-    <section>
+    <section class="section">
         <h3 class="sectionHeader">Experience</h3>
         <ul>
             <p>
@@ -35,7 +46,7 @@
                     </p>
                     <p class="overview">Accomplishments:</p>
                     <p>
-                        <ul>
+                        <ul class="unorderedList">
                             <li>Successfully facilitated the migration of the organization from Google Workspace to Microsoft Office.</li>
                             <li>Completed migration from on-premises Windows Server to Azure AD solution.</li>
                             <li>Voluptate possimus excepturi corporis fuga fugit molestias aliquid et in.</li>
@@ -48,7 +59,7 @@
                             Manage CCTV through EPS
                             On-going research and development of workplace automation using Microsoft's Power Automate.
                     <p class="overview">Software Utilized:</p>
-                        <ul>
+                        <ul class="unorderedList">
                             <li>ConnectWise ScreenConnect</li>
                             <li>Microsoft 365 Admin Center</li>
                             <li>Azure</li>
@@ -66,20 +77,33 @@
                     
             </p>
             <p>
-            <li class="employerName">ISA</li>
+            <li class="employerName">International Society of Automation(ISA)</li>
                 <ul>
                     <p class="positionTitle">Information Technology Specialist (May 2022 - June 2022)</p>
                 </ul>
             </p>
             <li class="employerName">Legacy Healthcare Services</li>
+            <p class="overview">Overview:</p>
+                    Working as part of a small IT team for a rapidly growing healthcare service. Supporting over 400 senior living rehabilitation facilities with troubleshooting, facility closures, and basic technical support. All while continuing to assist in establishing brand-new facilities. 
                 <ul>
-                    <p class="positionTitle">IT Analyst II (March 2020 - May2022)</p>
+                    <p class="positionTitle">IT Analyst II (December 2021 - May2022)</p>
                     <p class="overview">Responsibilities:</p>
-                        <ul>
+                        <ul class="unorderedList">
                             <li>Continued Remote Support to over 450 facilities.</li>
                             <li>Technical development focusing on automation through Power Automate.</li>
                             <li>Constantly looking for ways to increase team efficiency using automation tools.</li>
                             <li>Report and Analysis of ticket flow, call flow, and team monthly budget.</li>
+                        </ul>
+                </ul>
+                <ul>
+                    <p class="positionTitle">IT Analyst I (March 2020 - December 2021)</p>
+                    <p class="overview">Responsibilities:</p>
+                        <ul class="unorderedList">
+                            <li>Imaging Computers</li>
+                            <li>Hardware Configuration and Repairs</li>
+                            <li>Remote Trouble Shooting</li>
+                            <li>Support via live answer and email</li>
+                            <li>Email Administration</li>
                         </ul>
                 </ul>
         </ul>
@@ -101,10 +125,21 @@
         </ul>
     </section>
     <hr>
+
+    <!-- LICENSES AND CERTIFCATIONS -->
+    <section>
+        <h3 class="sectionHeader">Licenses & Certifcations</h3>
+        <ul class="unorderedList">
+            <li><a href="https://www.credly.com/badges/66909fbc-d6ee-43c4-98ed-da1ae54641d8/public_url">Certified in Cybersecurity (January 2024)</a></li>
+            <li><a href="https://www.credly.com/badges/19dba641-7262-41b9-af18-fa307e24f639?source=linked_in_profile">Google IT Support Professional (June 2021)</a></li>
+        </ul>
+    </section>
+    <hr>
+
     <!-- SKILLS -->
     <section>
         <h3 class="sectionHeader">Skills</h3>
-        <ul id="skillsList">
+        <ul id="skillsList" class="unorderedList">
             <li>test</li>
             <li>test</li>
             <li>test</li>
@@ -117,18 +152,9 @@
         </ul>
     </section>
     <hr>
-    <!-- CONTACT INFORMATION -->
-     <section id="contactInfo">
-        Coty Curtis<br>
-        861 2nd St NW<br>
-        Grand Rapids, MI&nbsp; 49504<br>
-        (616) 340-2189
-     </section>
+    
+    
 
 </body>
-
-
-
-
 
 </html>

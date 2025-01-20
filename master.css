@@ -7,29 +7,63 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size: 14pt;
     background-color: var(--color3);
     color: var(--color1);
-    width: 80%;
+    margin: 20px 5%;
 }
 
 ul{
     color: var(--color1);
+    list-style-type: none;
 }
 
 h1{
     font-size: 32pt;
+    text-align: center;
+}
+
+h3 {
+    color: var(--color2);
+    font-style: italic;
+    font-variant: small-caps;
+    text-shadow: var(--color5);
+}
+
+caption {
+    font-style: italic;
+    color: gray;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+section {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+a:link {
+    color: var(--color3);
+}
+
+a:hover {
+    color: var(--color2);
+}
+
+a:visited {
+    color: var(--color5);
 }
 
 #skillsList {
     columns: 3;
 }
 
-#unorderedList {
-    list-style-type: square;
+#propic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
 
 .employerName {
     font-variant: small-caps;
@@ -49,16 +83,6 @@ h1{
     text-decoration: underline;
 }
 
-.contactMe {
-    display: block;
-}
-
-.propic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .objectiveP {
     margin-top: 0;
     margin-right: 0%;
@@ -68,13 +92,6 @@ h1{
 
 .profileObjective {
     margin-right: 10%;
-}
-
-h3 {
-    color: var(--color2);
-    font-style: italic;
-    font-variant: small-caps;
-    text-shadow: var(--color5);
 }
 
 .objective {
@@ -93,22 +110,27 @@ h3 {
     width: 98%;
 }
 
-caption {
-    font-style: italic;
-    color: gray;
-    letter-spacing: 1px;
-    text-decoration: underline;
-}
-
 .portfolioHeadings {
     font-style: italic;
     font-variant: small-caps;
-    color: var(--color5)
+    color: var(--color5);
 }
 
 .portfolioCell {
     border: 1px solid var(--color2);
     vertical-align: top;
     padding: 7px;
-    color: var(--color5)
+    color: var(--color5);
+}
+
+/* .section { 
+    
+} */
+
+.unorderedList {
+    list-style-type: square;
+}
+
+#contactInfo {
+    text-align: center;
 }
