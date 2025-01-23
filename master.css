@@ -131,6 +131,13 @@ a:visited {
     list-style-type: square;
 }
 
+.employment {
+    border: 5px solid black;
+    padding: 15px 15px;
+    margin: 20px 0px;
+    text-align: justify;
+}
+
 #contactInfo {
     text-align: center;
 }
