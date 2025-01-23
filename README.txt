@@ -1,0 +1,1 @@
+Basic resume of Coty Curtis to showcase work history, acheivements, and coding ability
