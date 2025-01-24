@@ -57,10 +57,6 @@ a:visited {
     color: var(--color1);
 }
 
-a:hover ~ a:visited {
-    color: var(--color2);
-}
-
 #skillsList {
     columns: 3;
 }
