@@ -17,6 +17,7 @@ body{
 ul{
     color: var(--color1);
     list-style-type: none;
+    margin: 15px;
 }
 
 li {
@@ -148,4 +149,8 @@ a:visited {
 
 #contactInfo {
     text-align: center;
+}
+
+#military {
+    
 }
