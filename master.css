@@ -8,7 +8,7 @@
 
 body{
     font-family: Georgia, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: 1em;
     background-color: var(--color3);
     color: var(--color1);
     margin: 20px 5%;
@@ -25,7 +25,7 @@ li {
 }
 
 h1{
-    font-size: 32pt;
+    /* font-size: pt; */
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ a:link {
 
 a:hover {
     color: var(--color2);
-    text-shadow: 2px 2px 1px var(--color5);
+    text-shadow: 3px 3px 5px var(--color5);
 }
 
 a:visited {
@@ -144,13 +144,17 @@ a:visited {
     padding: 15px 15px;
     margin: 20px 0px;
     text-align: justify;
-    box-shadow: 5px 5px 1px black;
+    box-shadow: 5px 5px 5px black;
 }
 
 #contactInfo {
     text-align: center;
 }
 
-#military {
+/* #military {
     
+} */
+
+#propic {
+    box-shadow: 10px 10px 5px rgb(34, 34, 34);
 }
