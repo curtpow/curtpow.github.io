@@ -34,6 +34,7 @@ h3 {
     font-style: italic;
     font-variant: small-caps;
     text-shadow: var(--color5);
+    font-size: 1.4em;
 }
 
 caption {
@@ -95,7 +96,9 @@ a:visited {
     margin-top: 0;
     margin-right: 0%;
     margin-left: 5%;
-    text-align: center;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.25em;
 }
 
 .profileObjective {
@@ -157,4 +160,16 @@ a:visited {
 
 #propic {
     box-shadow: 10px 10px 5px rgb(34, 34, 34);
+    border-radius: 200px 200px 200px 200px;
+}
+
+#name {
+    margin: 0px;
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+
+.icon { 
+    float: left;
 }
