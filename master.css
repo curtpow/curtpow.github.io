@@ -8,10 +8,14 @@
 
 body{
     font-family: Georgia, Helvetica, sans-serif;
-    font-size: .75em;
+    font-size: 12pt;
     background-color: var(--color3);
     color: var(--color1);
     margin: 1vw 5vw;
+    display: grid;
+    grid-gap: 5px 50px;
+    grid-template-columns: 100vw;
+    grid-template-areas: "propic" "contactInfo" "objective" "section" "service" "skills" "certs" "education";
 }
 
 ul{
@@ -47,6 +51,7 @@ caption {
 section {
     padding-right: 5vw;
     padding-left: 5vw;
+    grid-area: section;
 }
 
 a:link {
@@ -63,14 +68,23 @@ a:visited {
     color: var(--color1);
 }
 
+a:active {
+    color: var(--color2);
+    transform: size(.85%);
+}
+
 #skillsList {
     columns: 3;
 }
 
 #propic {
-    display: grid;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px rgb(34, 34, 34);
+    border-radius: 200px 200px 200px 200px;
+    display: block;
+
 }
 
 .employerName {
@@ -88,30 +102,23 @@ a:visited {
 }
 
 .overview {
-    display: grid;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .objectiveP {
-    display: grid;
-    margin-top: 0;
-    margin-right: 0%;
-    margin-left: 5%;
     text-align: justify;
     padding: 20px;
     font-size: 1.25em;
     animation: move 2s linear 0s 1 normal;
+    grid-area: objectiveP;
 }
 
-.profileObjective {
-    display: grid;
+/* .profileObjective {
     margin-right: 10%;
-}
+} */
 
 .objective {
-    display: grid;
-    margin-left: 5%;
     text-align: center;
     animation: objmove 2s linear 0s 1 normal;
 }
@@ -158,20 +165,14 @@ a:visited {
 
 #contactInfo {
     text-align: center;
+    grid-area: contactInfo;
 }
 
 /* #military {
     
 } */
 
-#propic {
-    display: grid;
-    box-shadow: 10px 10px 5px rgb(34, 34, 34);
-    border-radius: 200px 200px 200px 200px;
-}
-
 #name {
-    display: grid;
     margin: 1vw;
     font-size: 2em;
     letter-spacing: 3px;
@@ -182,19 +183,50 @@ a:visited {
     float: left;
 }
 
-@media all and (min-width: 600px) {
-    body {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas:
-            "img"
-            "name"
-            "contactinfo"
-            "objective";
-    }
+.fullObjective {
+    grid-area: objective;
 }
 
-@keyframes move {
+.picture {
+    grid-area: propic;
+}
+
+.certs {
+    grid-area: certs;
+}
+
+.service {
+    grid-area: service;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.education {
+    grid-area: education;
+}
+
+@media all and (min-width: 800px) {
+    body {
+        grid-template-columns: auto auto;
+        grid-template-areas:
+            "propic objective"
+            "contactInfo objective"
+            "contactInfo objective"
+            "section section"
+            "education education"
+            "certs certs"
+            "skills skills"
+            "service service"
+            ;
+    }
+
+
+    
+}
+
+/* @keyframes move {
    from {transform: translate(500px, 0px)}
     to {transform: translate(0px, 0px)}
 }
@@ -202,4 +234,4 @@ a:visited {
 @keyframes objmove {
     from {transform: translate(0px, -200px)}
      to {transform: translate(0px, 0px)}
- }
+ } */
