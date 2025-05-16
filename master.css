@@ -183,6 +183,8 @@ a:active {
 
 .certs {
     grid-area: certs;
+    box-shadow: 5px 5px 5px black;
+    border: 5px solid var(--color5);
 }
 
 .service {
@@ -191,10 +193,14 @@ a:active {
 
 .skills {
     grid-area: skills;
+    box-shadow: 5px 5px 5px black;
+    border: 5px solid var(--color5);
 }
 
 .education {
     grid-area: education;
+    box-shadow: 5px 5px 5px black;
+    border: 5px solid var(--color5);
 }
 
 @media all and (min-width: 800px) {
