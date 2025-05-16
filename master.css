@@ -78,10 +78,11 @@ a:active {
 #propic {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
     box-shadow: 10px 10px 5px rgb(34, 34, 34);
-    border-radius: 25px;
+    border-radius: 500px;
+    border: solid var(--color2) 3px;
     display: block;
+    animation: objmove 2s linear 0s 1 normal;
 
 }
 
@@ -108,13 +109,13 @@ a:active {
     text-align: justify;
     padding: 20px;
     font-size: 1.25em;
-    animation: move 2s linear 0s 1 normal;
+
     grid-area: objectiveP;
 }
 
 .objective {
     text-align: center;
-    animation: objmove 2s linear 0s 1 normal;
+    
 }
 
 .portfolio {
@@ -167,6 +168,7 @@ a:active {
     font-size: 2em;
     letter-spacing: 3px;
     font-variant: small-caps;
+    animation: move 2s linear 0s 1 normal;
 }
 
 .icon { 
@@ -183,8 +185,6 @@ a:active {
 
 .certs {
     grid-area: certs;
-    box-shadow: 5px 5px 5px black;
-    border: 5px solid var(--color5);
 }
 
 .service {
@@ -193,14 +193,10 @@ a:active {
 
 .skills {
     grid-area: skills;
-    box-shadow: 5px 5px 5px black;
-    border: 5px solid var(--color5);
 }
 
 .education {
     grid-area: education;
-    box-shadow: 5px 5px 5px black;
-    border: 5px solid var(--color5);
 }
 
 @media all and (min-width: 800px) {
@@ -220,12 +216,12 @@ a:active {
     
 }
 
-/* @keyframes move {
-   from {transform: translate(500px, 0px)}
+@keyframes move {
+   from {transform: translate(-500px, 0px)}
     to {transform: translate(0px, 0px)}
 }
 
 @keyframes objmove {
-    from {transform: translate(0px, -200px)}
+    from {transform: translate(0px, -400px)}
      to {transform: translate(0px, 0px)}
- } */
+ }
